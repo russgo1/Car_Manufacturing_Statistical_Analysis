@@ -26,6 +26,35 @@ The table above summarizes PSI data on suspension coils from each of the manufac
 
 It appears that the low variance numbers from Lots 1 and 2 are keeping the variance from the Total Summary Table below 100, within design specifications, even thought Lot 3 is not meeting design specifications
 
+## T-Tests on Suspension Coils
+### All Lots
+
+![All Lots T-Test](stat_images/all_lots_ttest.png)
+
+The above results from the T-Test run all data from all manufacturing lots shows a calculated p-value of 0.06028. This is above our significance level of 0.05, meaning that the PSI across all manufacturing lots is statistically similar to the population mean of 1,500. 
+
+### Lot 1
+
+![Lot 1 T-Test](stat_images/lot1_ttest.png)
+
+The above results from the T-Test run on data from Manufacturing Lot 1 shows a calculated p-value of 1. This is well above our significance level of 0.05, meaning that the PSI at Lot 1 is statistically similar to the population mean of 1,500.
+
+### Lot 2
+
+![Lot 2 T-Test](stat_images/lot2_ttest.png)
+
+The above results from the T-Test run on data from Manufacturing Lot 2 shows a calculated p-value of 0.6072. This is well above our significance level of 0.05, meaning that the PSI at Lot 2 is statistically similar to the population mean of 1,500.
+
+### Lot 3
+
+![Lot 3 T-Test](stat_images/lot3_ttest.png)
+
+The above results from the T-Test run on data from Manufacturing Lot 3 shows a calculated p-value of 0.04168. This is below our significance level of 0.05, meaning that the PSI at Lot 3 is statistically different form the population mean of 1,500.
+
+
+### Summary
+Although the PSI at Lot 3 is statistically different from the population mean, Lots 1 and 2 are similar enough to the population mean to pull the combined data from all lots close enough to the population mean to say that Lots 1, 2, and 3 as a group are statistically similar to the population mean. 
+
 
 
 
