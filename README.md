@@ -1,4 +1,4 @@
-# Car_Manufacturing_Statistical_Analysis
+# Car Manufacturing Statistical Analysis - The MechaCar
 
 ## Linear Regression to Predict MPG
 The below statistics describe the results of this analysis.
