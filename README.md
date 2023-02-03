@@ -55,10 +55,26 @@ The above results from the T-Test run on data from Manufacturing Lot 3 shows a c
 ### Summary
 Although the PSI at Lot 3 is statistically different from the population mean, Lots 1 and 2 are similar enough to the population mean to pull the combined data from all lots close enough to the population mean to say that Lots 1, 2, and 3 as a group are statistically similar to the population mean. 
 
+## Study Design: MechaCar vs Competition
+This study will quantify how the MechaCar performs in highway fuel efficiency (mpg) versus other manufacturer's models with the same horsepower rating as the MechaCar. 
 
+The null hypothesis is that the mpg of the MechaCar does not differ statistically from that of other similarly powered vehicles. 
 
+The alternative hypothesis is that the mpg of the MechaCar does differ statistically from that of other similarly powered vehicles.
 
+In order to conduct this test we will need the following data,
+- Highway mpg ratings for all widely available new cars on the market
+- The highway mpg rating for the MechaCar
 
+First, we will take the mean of all of the highway mpg ratings for the other new cars on the market. This will be the population mean for this study, as it represents the mean mpg of the full population of publicly available new cars. 
+
+Then will conduct a T-Test comparing the MechaCar's mpg rating to that of the population mean. In the case of using R, the population mean will be set to the "mu=" <t.test(mu=)> argument. The T-Test is used because it is adequately suited to calculate if a given data set is statistically similar to a population, and that is what we aim to test.  
+
+If the T-Test returns a p-value greater than 0.05, we will fail to reject our null hypthesis and conclude that the MechaCar's mpg rating is not statistically different from that of other vehicles with the same horsepower. 
+
+If the T-Test returns a p-value below 0.05, we will reject our null hypothesis and conclude that the MechaCar's mpg rating is statistically different from that of other vehicles with the same horsepower. 
+
+If the MechaCar is significantly more fuel efficient than other similarly powered vehicles on the market, this could be a great selling point for the vehicle. 
 
 
 
