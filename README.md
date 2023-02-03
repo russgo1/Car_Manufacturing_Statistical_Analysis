@@ -68,7 +68,7 @@ In order to conduct this test we will need the following data,
 
 First, we will take the mean of all of the highway mpg ratings for the other new cars on the market. This will be the population mean for this study, as it represents the mean mpg of the full population of publicly available new cars. 
 
-Then will conduct a T-Test comparing the MechaCar's mpg rating to that of the population mean. In the case of using R, the population mean will be set to the "mu=" <t.test(mu=)> argument. The T-Test is used because it is adequately suited to calculate if a given data set is statistically similar to a population, and that is what we aim to test.  
+Then will conduct a T-Test comparing the MechaCar's mpg rating to that of the population mean. In the case of using R, the population mean will be set to the "mu=" `t.test(mu=)` argument. The T-Test is used because it is adequately suited to calculate if a given data set is statistically similar to a population, and that is what we aim to test.  
 
 If the T-Test returns a p-value greater than 0.05, we will fail to reject our null hypthesis and conclude that the MechaCar's mpg rating is not statistically different from that of other vehicles with the same horsepower. 
 
